@@ -2,3 +2,4 @@
 /centrifuge_rslts/*
 /centrifuge_db/*
 /fastq/*
+/code/*.py
