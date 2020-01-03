@@ -1,0 +1,4 @@
+# exclude the files from the following folders
+/centrifuge_rslts/*
+/centrifuge_db/*
+/fastq/*
