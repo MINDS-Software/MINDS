@@ -22,7 +22,7 @@ Setup an conda environment using miniconda
         g. reports
 
 ------------
-4. Downlaods the centrifuge specific database indexes  from https://ccb.jhu.edu/software/centrifuge/
+4. Download the centrifuge specific database indexes  from https://ccb.jhu.edu/software/centrifuge/
 
 ## To activate environment ##
 
