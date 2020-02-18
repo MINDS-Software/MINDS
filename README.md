@@ -14,7 +14,7 @@ Setup an conda environment using miniconda
     create the following folders inside the MINDS  folder.
 
         a. centrifuge_db
-		b. centrifuge_rslts
+	b. centrifuge_rslts
         c. code
         d. docs
         e. fastq
@@ -22,6 +22,7 @@ Setup an conda environment using miniconda
         g. reports
 
 ------------
+4. Downlaods the centrifuge specific database indexes  from https://ccb.jhu.edu/software/centrifuge/
 
 ## To activate environment ##
 
@@ -33,16 +34,11 @@ source deactivate
 
 ------------
 
-## Running the application usage of syntax and explaination ##
+## Running the application usage ##
+source activate MIBDS
+cd projects/MINDS
+jupyter notebook
 
-python MINDS.py --fastq [file with full path] --c [centrifuge generated file names] --taxaid
-
-    -fastq -argument to pass the file name with folder were the fastq files are after basecalling.
-
-    -c -argument centrifuge generated results & report files
-
-example:
-python Centrifuge_Scorer.py -f msa_2002_lee2.fastq -t 210 -a p_compressed_MSA2002_lee2_BCN01_report-UnFiltered.txt -b p_compressed_MSA2002_lee2_BCN01_results-UnFiltered.txt
 ------------
 ## Team ##
 
