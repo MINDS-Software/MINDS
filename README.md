@@ -11,14 +11,21 @@ Setup an conda environment using miniconda
 3. mkdir projects
 4. cd projects
 5. mkdir MINDS
+
     create the following folders inside the MINDS  folder.
 
 	a. centrifuge_db
+	
 	b. centrifuge_rslts
+	
         c. code
+	
         d. docs
+	
         e. fastq
+	
         f. logs
+	
         g. reports
 
 ------------
