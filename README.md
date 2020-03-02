@@ -13,20 +13,20 @@ Setup an conda environment using miniconda
 5. mkdir MINDS
 
     create the following folders inside the MINDS  folder.
-
+	
 	a. centrifuge_db
 	
 	b. centrifuge_rslts
 	
-        c. code
+	c. code
+        
+	d. docs	
+
+	e. fastq
+        
+	f. logs
 	
-        d. docs
-	
-        e. fastq
-	
-        f. logs
-	
-        g. reports
+	g. reports
 
 ------------
 6. Download the centrifuge specific database indexes  from https://ccb.jhu.edu/software/centrifuge/
@@ -44,7 +44,7 @@ source deactivate
 
 ## Running the application ##
 source activate MINDS
-cd projects/MINDS
-jupyter notebook
 
-------------
+cd projects/MINDS
+
+jupyter notebook
