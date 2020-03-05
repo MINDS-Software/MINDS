@@ -9,7 +9,7 @@ You will need to download miniconda as described in the link below;
 https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html
 
 Setup an conda environment using miniconda
-1. conda create -n MINDS --file requirements.yml
+1. conda env create --file requirements.yml
 2. source activate MINDS
 3. mkdir projects
 4. cd projects
